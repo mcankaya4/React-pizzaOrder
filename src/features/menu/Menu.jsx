@@ -6,7 +6,7 @@ function Menu() {
   // useLoaderData ile route sayesinde gelen api verilerini alıyoruz.
   const menu = useLoaderData();
   return (
-    <ul>
+    <ul className="flex flex-col divide-y divide-stone-200 px-2">
       {menu.map((pizza) => (
         <MenuItem pizza={pizza} key={pizza.id} />
       ))}
