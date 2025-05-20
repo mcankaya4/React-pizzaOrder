@@ -12,11 +12,11 @@
 
 @layer components {
   .input {
-    @apply w-full rounded-full border border-stone-200 bg-white px-4 py-2 text-sm duration-200 placeholder:text-stone-400 focus:ring-1 focus:ring-yellow-400 focus:outline-none md:px-6 md:py-3;
+    @apply rounded-full border border-stone-200 bg-white px-4 py-2 text-sm duration-200 placeholder:text-stone-400 focus:ring-3 focus:ring-yellow-400 focus:outline-none md:px-6 md:py-3;
   }
 
   .focusInput {
-    @apply focus:ring focus:ring-yellow-400 focus:ring-offset-1 focus:outline-none;
+    @apply focus:ring-3 focus:ring-yellow-400 focus:ring-offset-1 focus:outline-none;
   }
 
   /* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
